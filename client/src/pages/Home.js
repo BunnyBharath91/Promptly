@@ -91,8 +91,12 @@ const Home = () => {
       setFilteredPost(posts);
     }
     const filteredPosts = posts.filter((post) => {
-      const promptMatch = post?.prompt?.toLowerCase().includes(search);
-      const authorMatch = post?.author?.toLowerCase().includes(search);
+      const promptMatch = post?.prompt
+        ?.toLowerCase()
+        .includes(search.toLowerCase());
+      const authorMatch = post?.name
+        ?.toLowerCase()
+        .includes(search.toLowerCase());
 
       return promptMatch || authorMatch;
     });
