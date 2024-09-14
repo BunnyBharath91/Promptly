@@ -10,8 +10,6 @@
 - [Installation and Setup](#installation-and-setup)
 - [Project Structure](#project-structure)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -26,7 +24,6 @@
 - **Text-based Image Generation**: Create images from text prompts using the DALL-E API.
 - **Image Upload and Download**: Upload images and download the generated results.
 - **Public Gallery**: Publish and showcase images in a public gallery for others to view.
-- **User Authentication**: Manage user accounts and sessions to support personalized features.
 
 ## Technologies Used
 
@@ -43,7 +40,6 @@
 - **MongoDB**: Database for storing user data and application content.
 - **Mongoose**: ODM (Object Data Modeling) library for MongoDB.
 - **DALL-E API**: For generating images based on prompts.
-- **JWT (JSON Web Token)**: For user authentication and session management.
 
 ### Tools
 - **Git & GitHub**: Version control and repository management.
@@ -113,11 +109,3 @@
 
 - **Frontend**: Navigate to `http://localhost:3000` to access the React application.
 - **Backend**: The server will be running on `http://localhost:5000`.
-
-## Contributing
-
-Contributions are welcome! Please submit a pull request with a clear description of your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
