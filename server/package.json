@@ -16,6 +16,6 @@
     "nodemon": "^3.1.4",
     "openai": "^3.1.0"
   },
-  "author": "Rishav",
+  "author": "Bharath Kumar Borra",
   "license": "ISC"
 }
