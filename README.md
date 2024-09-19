@@ -59,7 +59,7 @@
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/BunnyBharath91/Promptly.git
+    git clone https://github.com/BharathKumarBorra/Promptly.git
     cd Promptly
     ```
 
