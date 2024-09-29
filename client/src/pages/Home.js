@@ -24,6 +24,7 @@ const HeadLine = styled.div`
   font-size: 34px;
   font-weight: 500;
   color: ${({ theme }) => theme.text_primary};
+  text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
