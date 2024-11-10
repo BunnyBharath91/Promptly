@@ -56,7 +56,7 @@ const Prompt = styled.div`
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  -webkit-line-clamp: 2;
   text-overflow: ellipsis;
 `;
 const Author = styled.div`
